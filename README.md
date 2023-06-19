@@ -1,11 +1,11 @@
-About r-beepr
-=============
+About r-beepr-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-beepr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=beepr
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-beepr-feedstock/blob/main/LICENSE.txt)
 
 Summary: The main function of this package is beep(), with the purpose to make it easy to play notification sounds on whatever platform you are on. It is intended to be useful, for example, if you are running a long analysis in the background and want to know when it is ready.
 
