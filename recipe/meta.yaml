@@ -1,4 +1,4 @@
-{% set version = "2.0" %}
+{% set version = "2.0.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/beepr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/beepr/beepr_{{ version }}.tar.gz
-  sha256: 620e5ec93c1a0991a9c8f60868153fee1e3918b1a784f50c0e35186780c60477
+  sha256: 48961a2b3e12a6f85a5e8099da20a91adc04af0eac1d5cf82fabba6ed61e4afd
 
 build:
-  number: 2
+  number: 0
   noarch: generic
 
   rpaths:
